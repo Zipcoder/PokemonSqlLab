@@ -4,7 +4,7 @@ USE pokemon;
 #Pokemon Name	Trainer Name	Level	Primary Type	Secondary Type
 #Pokemon's name	Trainer's name	Current Level	Primary Type Name	Secondary Type Name
 
-SELECT pks.name as 'Pokemon Name', tnr.trainername as 'Trainer Name', pktr.pokelevel as 'Level', typ1.name as 'Primary Type', typ2.name as 'Secondary Type'
+SELECT pks.name, tnr.trainername, pktr.pokelevel, typ1.name, typ2.name
 FROM pokemon_trainer pktr
 INNER JOIN pokemons pks ON pks.id = pktr.pokemon_id
 INNER JOIN trainers tnr ON tnr.trainerID = pktr.trainerID

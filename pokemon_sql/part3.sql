@@ -27,4 +27,7 @@ INNER JOIN types tps ON tps.id = pks.primary_type GROUP BY pks.primary_type;
 SELECT COUNT(pokemon_id) FROM pokemon_trainer WHERE pokelevel = 100 GROUP BY trainerID;
 
 #How many pokemon only belong to one trainer and no other?
-SELECT COUNT(DISTINCT pokemon_id) FROM pokemon_trainer;
+SELECT COUNT(ptr.pokemon_id), pks.name
+FROM pokemon_trainer ptr
+JOIN pokemons pks ON pks.id = ptr.pokemon_id
+GROUP BY ptr.pokemon_id HAVING COUNT(ptr.pokemon_id) = 1;
