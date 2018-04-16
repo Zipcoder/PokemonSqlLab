@@ -36,6 +36,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="pokemon: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PokeData@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pokemon: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="pokemon_trainer: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -47,7 +54,7 @@
             <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c26175b6-af58-40e7-b034-615e2d696430/console_1.sql">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="52" lean-forward="true" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+                  <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -57,11 +64,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="part2.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pokemon_sql/part2.sql">
+          <file leaf-file-name="part3.sql" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                <state relative-caret-position="595">
+                  <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -71,13 +78,19 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>18</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c26175b6-af58-40e7-b034-615e2d696430/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c26175b6-af58-40e7-b034-615e2d696430/console_1.sql" />
         <option value="$PROJECT_DIR$/pokemon_sql/part2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c26175b6-af58-40e7-b034-615e2d696430/console_1.sql" />
+        <option value="$PROJECT_DIR$/pokemon_sql/part3.sql" />
       </list>
     </option>
   </component>
@@ -230,18 +243,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c26175b6-af58-40e7-b034-615e2d696430/console_1.sql">
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/part2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="true" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        <state relative-caret-position="315">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/part2.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c26175b6-af58-40e7-b034-615e2d696430/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding />
         </state>
       </provider>
