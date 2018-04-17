@@ -1,4 +1,4 @@
-create table trainers(trainerID int not null primary key,trainername text null);
+
 INSERT INTO pokemon.trainers (trainerID, trainername) VALUES (0, 'A-list Actor Alonso');
 INSERT INTO pokemon.trainers (trainerID, trainername) VALUES (1, 'A-list Actor Ricardo');
 INSERT INTO pokemon.trainers (trainerID, trainername) VALUES (2, 'Ace Duo Elina & Sean');

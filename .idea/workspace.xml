@@ -45,20 +45,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fb5d9fe1-21e3-44d3-b78d-5d4aee2b69ab/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mySQLcommands.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mySQLcommands.sql">
+      <file leaf-file-name="pokemon_trainers.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amysSQLcommands.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amysSQLcommands.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -70,6 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/mySQLcommands.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fb5d9fe1-21e3-44d3-b78d-5d4aee2b69ab/console.sql" />
+        <option value="$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql" />
+        <option value="$PROJECT_DIR$/amysSQLcommands.sql" />
       </list>
     </option>
   </component>
@@ -100,6 +111,22 @@
               <item name="PokemonSqlLab" type="8cb6161f:DatabaseProjectViewPane$1$1" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
+            <path>
+              <item name="PokemonSqlLab" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="PokemonSqlLab" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="fb5d9fe1-21e3-44d3-b78d-5d4aee2b69ab" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="PokemonSqlLab" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -109,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -129,14 +156,14 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" anchor="bottom" id="Database Console" order="3" visible="true" weight="0.3598862" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1578125" />
+      <window_info anchor="bottom" id="Database Console" order="3" weight="0.571835" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2421875" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.3296875" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.13359375" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.55192035" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.55192035" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
@@ -153,17 +180,24 @@
     <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mySQLcommands.sql">
+    <entry file="file://$PROJECT_DIR$/amysSQLcommands.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fb5d9fe1-21e3-44d3-b78d-5d4aee2b69ab/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
         </state>
       </provider>
     </entry>
