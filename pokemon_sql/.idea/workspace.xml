@@ -79,20 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Part 3 Commands" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Part 3 Commands" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part 3 Commands">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokemons" pinned="false" current-in-tab="false">
-        <entry file="das://fc9fb3ae-6b0b-4159-b191-f019445cad90/schema/pokemon/table/pokemons">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="267">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -100,8 +91,17 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc9fb3ae-6b0b-4159-b191-f019445cad90/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pokemon_trainer" pinned="false" current-in-tab="true">
+        <entry file="das://fc9fb3ae-6b0b-4159-b191-f019445cad90/schema/pokemon/table/pokemon_trainer">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -114,16 +114,15 @@
         <option value="$PROJECT_DIR$/Part 2 Commands" />
         <option value="$PROJECT_DIR$/scratch.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fc9fb3ae-6b0b-4159-b191-f019445cad90/console_1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fc9fb3ae-6b0b-4159-b191-f019445cad90/console.sql" />
         <option value="$PROJECT_DIR$/Part 3 Commands" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fc9fb3ae-6b0b-4159-b191-f019445cad90/console.sql" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="-901" />
-    <option name="width" value="1445" />
-    <option name="height" value="820" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,6 +147,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="database.main2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,13 +162,14 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-213" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-213" y="-1002" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3127001" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19169329" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.41560283" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.1970181" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.26466382" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32855093" />
@@ -226,9 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_trainers.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -251,20 +249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://fc9fb3ae-6b0b-4159-b191-f019445cad90/schema/pokemon/table/pokemon_trainer">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc9fb3ae-6b0b-4159-b191-f019445cad90/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part 2 Commands">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -279,10 +263,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Part 3 Commands">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="267">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc9fb3ae-6b0b-4159-b191-f019445cad90/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fc9fb3ae-6b0b-4159-b191-f019445cad90/schema/pokemon/table/pokemon_trainer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
