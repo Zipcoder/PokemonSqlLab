@@ -6,9 +6,9 @@ create table trainers(trainerID int not null primary key,trainername text null);
 ALTER TABLE pokemon.trainers MODIFY COLUMN trainername VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
 
 
-//SELECT * FROM pokemon_trainer;
+/* SELECT * FROM pokemon_trainer; */
 
-/* this we cut bc we arlready created the table
+/* this we cut bc we already created the table:
 
 create table trainers(trainerID int not null primary key,trainername text null);
 
@@ -33,7 +33,16 @@ SELECT COUNT(id) FROM pokemon.pokemons where secondary_type IS NOT NULL;
 
 Part 3:
 What is each pokemon's primary type?
+/*print out these two fields from these two tables^ */
+SELECT pokemons.name, types.name FROM pokemons INNER JOIN types ON pokemons.primary_type=types.id;
+// WRONG =>SELECT pokemons.name, types.name FROM pokemon.pokemons INNER JOIN pokemon.types ON pokesmons.primary_type=types.id;
+
+
 What is Rufflet's secondary type?
+SELECT pokemons.name, types.name FROM pokemons INNER JOIN types ON pokemons.secondary_type=types.id WHERE pokemons.name = 'Rufflet';
+SUCK ITTTTTTT
+
+
 What are the names of the pokemon that belong to the trainer with trainerID 303?
 How many pokemon have a secondary type Poison
 What are all the primary types and how many pokemon have that type?
