@@ -22,5 +22,8 @@ WHERE trainerID = 303
 FROM pokemon.pokemons
 WHERE secondary_type = 7
 -- What are all the primary types and how many pokemon have that type?
+SELECT pokemons.name , COUNT(pokemons.id)
+FROM pokemon.types JOIN pokemon.pokemons ON primary_type =pokemons.id
+GROUP BY pokemons.name
 -- How many pokemon at level 100 does each trainer with at least one level 100 pokemone have? (Hint: your query should not display a trainer
 -- How many pokemon only belong to one trainer and no other?

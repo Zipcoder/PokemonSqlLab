@@ -39,7 +39,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="2" selection-end-column="24" />
+              <caret selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,8 @@
       <file leaf-file-name="part3.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="390">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -247,8 +247,8 @@
     <frame x="123" y="91" width="1181" height="622" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.32846716" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30397967" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.32846716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30397967" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.23454699" />
@@ -303,32 +303,32 @@
     <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_types.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="105">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-914" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="390">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
