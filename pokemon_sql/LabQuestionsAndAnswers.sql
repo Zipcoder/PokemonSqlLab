@@ -21,7 +21,7 @@ FROM pokemons;
 
 
 #Part 3: Joins and Groups
-What is each pokemon's primary type?
+#What is each pokemon's primary type?
 SELECT name,primary_type FROM pokemons
 GROUP BY name,primary_type;
 
@@ -53,4 +53,13 @@ GROUP BY trainerID;
 #How many pokemon only belong to one trainer and no other?
 SELECT count(*), pokemon_id FROM pokemon_trainer
 group by pokemon_id
-having count(*) = 1;
+having count(*) = 1
+
+#Part 4
+SELECT p.name PokeName, t.trainername TrainerName, sum(pokelevel) Level, tp.name PrimaryType, ts.name SecondaryType
+FROM pokemon_trainer pt
+JOIN pokemons p ON pt.pokemon_id = p.id
+JOIN types tp ON p.primary_type = tp.id
+JOIN types ts ON p.secondary_type = ts.id
+JOIN trainers t ON pt.trainerID = t.trainerID
+WHERE pokelevel = 100 GROUP BY trainerID AND tp.name = 'Ghost';
