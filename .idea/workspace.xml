@@ -39,8 +39,15 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="4" />
+              <caret selection-end-line="3" selection-end-column="20" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pokemon_pokemon_trainer.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8" />
           </provider>
         </entry>
       </file>
@@ -48,15 +55,8 @@
         <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokemon_trainers.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-914" />
           </provider>
         </entry>
       </file>
@@ -90,7 +90,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="123" />
     <option name="y" value="91" />
     <option name="width" value="1181" />
@@ -244,7 +244,7 @@
     <option name="totallyTimeSpent" value="184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="91" width="1181" height="622" extended-state="0" />
+    <frame x="123" y="91" width="1181" height="622" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.32846716" />
@@ -300,8 +300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_types.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -310,25 +312,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-914" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="4" />
+          <caret selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
