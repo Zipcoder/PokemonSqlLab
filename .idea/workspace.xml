@@ -39,7 +39,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="2" selection-end-column="22" />
+              <caret selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,8 @@
       <file leaf-file-name="part3.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="310">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -321,14 +321,14 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="2" selection-end-column="22" />
+          <caret selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="310">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
