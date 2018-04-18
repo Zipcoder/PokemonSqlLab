@@ -1,0 +1,16 @@
+#What is each pokemon's primary type?
+SELECT name, primary_type FROM pokemons;
+
+#What Rufflet's secondary type?
+SELECT secondary_type FROM pokemons WHERE name = "Rufflet";
+
+#What are the names of the pokemon that belong to the trainer with trainerId 303?
+SELECT name FROM pokemons pk INNER JOIN pokemon_trainer pt on pk.id = pt.pokemon_id where pt.trainerID = 303;
+#answer: Wailord and Vileplume
+
+SELECT COUNT(*) FROM pokemons p INNER JOIN types t on p.secondary_type = t.id WHERE t.name = "Poison";
+#answer: 31
+
+#What are all the primary types and how many pokemon have that type?
+SELECT t.name, COUNT(p.primary_type) FROM types t INNER JOIN pokemons p on t.id = p.primary_type GROUP BY t.name;
+
