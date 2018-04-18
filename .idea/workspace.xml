@@ -39,7 +39,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="2" selection-end-column="26" />
+              <caret selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -47,31 +47,17 @@
       <file leaf-file-name="part3.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="205">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pokemon_pokemons.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql">
+      <file leaf-file-name="pokemon_trainers.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19" />
+            <state relative-caret-position="-914" />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="part2.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pokemon_sql/part2.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokemon_types.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_types.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -105,8 +91,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="186" />
+    <option name="x" value="123" />
+    <option name="y" value="91" />
     <option name="width" value="1181" />
     <option name="height" value="622" />
   </component>
@@ -258,7 +244,7 @@
     <option name="totallyTimeSpent" value="184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="186" width="1181" height="622" extended-state="0" />
+    <frame x="123" y="91" width="1181" height="622" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Database Console" visible="true" weight="0.32846716" />
@@ -304,24 +290,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/407547c0-2117-4688-96a1-815c9ceaaee2/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/pokemanLabComands.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_types.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19074" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/part2.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -330,17 +300,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416b2ac2-676f-4dbe-a80e-8cf428171b79/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="2" selection-end-column="26" />
+          <caret selection-end-line="2" selection-end-column="24" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_types.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/part3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="205">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
