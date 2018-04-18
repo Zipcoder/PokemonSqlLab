@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:information_schema</introspection-schemas>
+      <introspection-schemas>*:information_schema,pokemon</introspection-schemas>
     </data-source>
   </component>
 </project>
