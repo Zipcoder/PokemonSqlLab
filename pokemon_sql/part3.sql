@@ -10,5 +10,6 @@ SELECT COUNT(*) AS "Secondary type is poison" FROM pokemon.pokemons pkmn JOIN po
 -- What are all the primary types and how many pokemon have that type?
 SELECT t.name, COUNT(pkmn.id) FROM  pokemon.types t JOIN pokemon.pokemons pkmn ON pkmn.primary_type = t.id GROUP BY t.id;
 -- How many pokemon at level 100 does each trainer with at least one level 100 pokemon have?
-SELECT COUNT(*)
+SELECT COUNT(*) FROM pokemon.pokemon_trainer pt WHERE pokelevel = 100 GROUP BY pt.trainerID;
 -- How many pokemon only belong to one trainer and no other?
+select SUM(count) from (select count(pokemon_id) as count from pokemon.pokemon_trainer group by pokemon_id having count(pokemon_id) =1) as pokemon;
