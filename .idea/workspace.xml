@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c00e0b6-5b06-4294-83e3-094d415b2415" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pokemon_sql/part3.sql" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,9 +72,18 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f678efa8-8366-48d6-b563-9d7be878bb20/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="456">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="70" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pokemon_trainer" pinned="false" current-in-tab="false">
+        <entry file="das://table:/5bb7c6bf/f678efa8-8366-48d6-b563-9d7be878bb20/pokemon.pokemon_trainer">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -330,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525629174955</updated>
-      <workItem from="1525629176427" duration="8064000" />
+      <workItem from="1525629176427" duration="9094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8064000" />
+    <option name="totallyTimeSpent" value="9094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/5bb7c6bf/f678efa8-8366-48d6-b563-9d7be878bb20/pokemon.pokemon_trainer">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/5bb7c6bf/f678efa8-8366-48d6-b563-9d7be878bb20/pokemon.pokemons">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -448,10 +448,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/5bb7c6bf/f678efa8-8366-48d6-b563-9d7be878bb20/pokemon.pokemon_trainer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f678efa8-8366-48d6-b563-9d7be878bb20/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="456">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="70" selection-end-column="17" />
           <folding />
         </state>
       </provider>
