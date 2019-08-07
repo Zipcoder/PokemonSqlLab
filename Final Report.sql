@@ -12,6 +12,6 @@ join pokemons as p on pt.pokemon_id = p.id
 join trainers as t on pt.trainerID = t.trainerID 
 join types as t1 on p.primary_type = t1.id
 join types as t2 on p.secondary_type = t2.id
-order by (maxhp+attack+defense+spdef+speed) desc, pt.pokelevel desc;
+order by (maxhp+attack+defense+spatk+spdef+speed) desc, pt.pokelevel desc;
 
 
