@@ -1,0 +1,4 @@
+
+*.xml
+.DS_Store
+.idea/DataGrip.PokemonSqlLab.iml
