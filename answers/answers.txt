@@ -18,4 +18,4 @@ ON pokemon_trainer.trainerID = trainers.trainerID
 WHERE pokelevel > 99 
 GROUP BY pokemon_trainer.trainerID 
 ORDER BY COUNT(*) DESC;
-3.7 - 
+3.7 - SELECT p.name AS 'Pokemon Name', t.trainername AS 'Trainer Name', pt.pokelevel AS 'Level', t1.name AS 'Primary Type', t2.name AS 'Secondary Type' FROM pokemon_trainer pt JOIN trainers t ON pt.trainerID = t.trainerID JOIN pokemons p on pt.pokemon_id = p.id JOIN types t1 ON p.primary_type = t1.id JOIN types t2 ON p.secondary_type = t2.id ORDER BY (maxhp + attack + defense + spatk + sped + speed) DESC, pt.pokelevel DESC;
