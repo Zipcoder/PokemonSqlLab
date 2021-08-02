@@ -54,4 +54,4 @@ JOIN trainers t ON pt.trainerID = t.trainerID
 JOIN pokemons p ON pt.pokemon_id = p.id
 JOIN types t1 ON p.primary_type = t1.id
 JOIN types t2 ON p.secondary_type = t2.id
-ORDER BY (maxhp) DESC, pt.pokelevel DESC;
+ORDER BY (maxhp + attack + defense + spatk + spdef + speed) DESC, pt.pokelevel DESC;
