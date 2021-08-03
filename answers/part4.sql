@@ -3,6 +3,6 @@ SELECT p.name PokemonName , tr.trainername , ptr.pokelevel Level , t.name Primar
 FROM pokemons p 
  JOIN pokemon_trainer ptr ON p.id = pokemon_id 
  JOIN trainers tr ON tr.trainerID = ptr.trainerID
- RIGHT JOIN types t ON p.primary_type = t.id
- RIGHT JOIN types ty ON p.secondary_type = ty.id
+ LEFT JOIN types t ON p.primary_type = t.id
+ LEFT JOIN types ty ON p.secondary_type = ty.id
  ORDER BY ptr.pokelevel DESC;
