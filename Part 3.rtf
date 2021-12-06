@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+### Part 3: Joins and Groups\
+Directions: Write a sql query or sql queries that can answer the following questions\
+\
+\
+* What is each pokemon's primary type?\
+
+\f1\fs22 \cf2 \CocoaLigature0 SELECT p.name, t.name\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+    -> FROM pokemons p\
+    -> JOIN types t\
+    -> ON p.primary_type = t.id;
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 * What is Rufflet's secondary type?\
+\
+	
+\f1\fs22 \cf2 \CocoaLigature0 SELECT secondary_type FROM pokemons WHERE name = "Rufflet";
+\f0\fs24 \cf0 \CocoaLigature1 \
+\
+* What are the names of the pokemon that belong to the trainer with trainerID 303?\
+\
+	
+\f1\fs22 \cf2 \CocoaLigature0 SELECT p.name AS pokemon_name FROM pokemons p JOIN trainers t ON p.id=t.trainerID WHERE trainerID=303;
+\f0\fs24 \cf0 \CocoaLigature1 \
+* How many pokemon have a secondary type `Poison`?\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 SELECT count(*) FROM pokemons p JOIN types t ON p.secondary_type=t.id WHERE t.name='Poison';\
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 * What are all the primary types and how many pokemon have that type?\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0  SELECT t.name,count(p.primary_type)\
+    -> FROM types t\
+    -> JOIN pokemons p\
+    -> ON p.primary_type = t.id\
+    -> GROUP BY t.name;
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 * How many pokemon at level 100 does each trainer with at least one level 100 pokemone have? (Hint: your query should not display a trainer)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0  SELECT COUNT(pokemon_id)\
+    -> FROM pokemon_trainer\
+    -> WHERE pokelevel = 100\
+    -> GROUP BY trainerID\
+    -> HAVING COUNT(pokelevel)>1;\
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 * How many pokemon only belong to one trainer and no other?\
+}
