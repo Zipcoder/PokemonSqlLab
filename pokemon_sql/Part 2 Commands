@@ -1,0 +1,17 @@
+#What are all the types of pokemon that a pokemon can have?
+SELECT * FROM types;
+
+#What is the name of the pokemon with id 45?
+SELECT * FROM pokemons
+WHERE ID = 45;
+
+#How many pokemon are there?
+SELECT count(*) from pokemons;
+
+#How many types are there?
+SELECT count(*) from types;
+
+#How many pokemon have a secondary type?
+SELECT count(*) from pokemons
+WHERE secondary_type IS NOT NULL;
+
