@@ -1,0 +1,21 @@
+2.1 - SELECT * FROM types;
+2.2 - SELECT name FROM pokemons WHERE id = 45;
+2.3 - SELECT COUNT(name) FROM pokemons;
+2.4 - SELECT COUNT(id) FROM types;
+2.5 - SELECT COUNT(id) FROM types;
+
+3.1 - SELECT primary_type FROM pokemons;
+3.2 - SELECT secondary_type FROM pokemons WHERE name = 'Rufflet';
+3.3 - SELECT * FROM pokemon_trainer INNER JOIN pokemons ON  trainerID = 303 AND pokemon_trainer.pokemon_id = pokemons.id;
+3.4 - SELECT pokemons.name AS Pokemon_Name, types.name AS Primary_Type FROM pokemons INNER
+JOIN types ON pokemons.primary_type = types.id;
+3.5 - SELECT pokemons.name AS Pokemon_Name, types.name AS Primary_Type FROM pokemons INNER
+JOIN types ON pokemons.primary_type = types.id;
+3.6 - SELECT trainers.trainername AS 'Trainers Name', COUNT(*) AS '# lvl 100 Pokemon' 
+FROM trainers
+INNER JOIN pokemon_trainer 
+ON pokemon_trainer.trainerID = trainers.trainerID 
+WHERE pokelevel > 99 
+GROUP BY pokemon_trainer.trainerID 
+ORDER BY COUNT(*) DESC;
+3.7 - SELECT p.name AS 'Pokemon Name', t.trainername AS 'Trainer Name', pt.pokelevel AS 'Level', t1.name AS 'Primary Type', t2.name AS 'Secondary Type' FROM pokemon_trainer pt JOIN trainers t ON pt.trainerID = t.trainerID JOIN pokemons p on pt.pokemon_id = p.id JOIN types t1 ON p.primary_type = t1.id JOIN types t2 ON p.secondary_type = t2.id ORDER BY (maxhp + attack + defense + spatk + sped + speed) DESC, pt.pokelevel DESC;
