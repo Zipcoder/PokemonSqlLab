@@ -1,0 +1,31 @@
+# What are all the types of pokemon that a pokemon can have?
+select name from types;
+
+# What is the name of the pokemon with id 45?
+select name from pokemons where id = 45;
+
+# How many pokemon are there?
+select COUNT(*) id from pokemons;
+
+#How many types are there?
+
+select COUNT(*) from types;
+select COUNT(*) from pokemons where secondary_type IS NOT NULL;
+
+select name, primary_type from pokemons;
+select name, secondary_type from pokemons where name = 'Rufflet';
+select * from pokemon_trainer INNER JOIN pokemons ON  trainerID = 303 and pokemon_trainer.pokemon_id = pokemons.id;
+
+select count(*) from pokemons INNER JOIN types ON secondary_type = 7;
+
+SELECT pokemons.name, types.name FROM pokemons INNER JOIN types ON pokemons.primary_type = types.id;
+
+SELECT Distinct(trainers.trainername) AS 'Trainers Name', COUNT(*) AS '# lvl 100 Pokemon' FROM trainers
+INNER JOIN pokemon_trainer ON pokemon_trainer.trainerID = trainers.trainerID WHERE pokelevel > 99 GROUP BY pokemon_trainer.trainerID 
+ORDER BY COUNT(*) DESC;
+
+
+SELECT COUNT(trainerID), pokemon_id
+FROM pokemon_trainer 
+GROUP BY pokemon_id
+HAVING COUNT(trainerID) = 1;
